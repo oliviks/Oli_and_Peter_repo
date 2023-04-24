@@ -25,3 +25,7 @@ print(f"Standard deviation of 1D array: {std}")
 print(f"Reshaped 2D matrix: {new_matrix}")
 print(f"Element-wise multiplied matrix: {mult_matrix}")
 print(f"Sum of all elements in element-wise multiplied matrix: {sum_mult_matrix}")
+
+# Calculate dot product of matrix and new_matrix
+dot_product = np.dot(matrix, new_matrix)
+print(f"Dot product of matrix and new_matrix: {dot_product}")
