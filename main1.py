@@ -24,6 +24,5 @@ print(f"Reshaped 2D matrix: {new_matrix}")
 print(f"Element-wise multiplied matrix: {mult_matrix}")
 print(f"Sum of all elements in element-wise multiplied matrix: {sum_mult_matrix}")
 
-dot_product = np.dot (matrix, new_matrix)
-
-print (f"Dot product of matrix and new matrix: {dot_product}")
+cross_product = np.dot (matrix, new_matrix)
+print (f"Dot product of matrix and new matrix: {cross_product}")
